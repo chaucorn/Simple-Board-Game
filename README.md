@@ -5,4 +5,7 @@
   - jumping over an opponent's pawn to convert it into one's own pawn. 
 - Players have the freedom to perform multiple consecutive jumps as long as they are valid moves. 
 - In the event that a player has no available moves, they are granted a free move. 
-# There are three versions that you can choose: Player vs Player, Player vs Computer (random strategy) or Player vs Computer (with strategy)
+# There are three versions that you can choose: 
+- Player vs Player
+- Player vs Computer (random strategy) 
+- Player vs Computer (with strategy)
