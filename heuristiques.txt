@@ -1,0 +1,9 @@
+HEURISTICS:
+
+-AI guided has been programmed with the rules as followed:
+	- If the number of pawns left is bigger than 10: choose strategy "eliminate" with p = 0.7, otherwise choosing strategy "jump"
+	- If the number of pawns left is less than 10: choose strategy "jump" with p = 0.9, otherwise choosing strategy "eliminate"
+Reasons:
+- The purpose of strategy "eliminate" is to reduce the number of pawns of opponent, thus reduce the number of pawns in total, which leads to the end of game
+  For that reason, the computer bot will choose the "eliminate" most of the time when its number of pawns left is still significant
+- When the number of pawns left is less than 10, now it will choose the strategy "jump" to preserve its counts of pawns to make sure it has low chance of losing.

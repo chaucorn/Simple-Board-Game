@@ -1,0 +1,10 @@
+DESCRIPTION FOR NAURU GAME
+
+- All the rules of the games have been correctly programmed : strategies, exception of a free move in case of deadlock
+- Clean codes: Main functions of each turn for player and bot have more than 15 lines
+
+Improvement:
+- The size of the board can be chosen, and the setting of the board are now random
+- Highlight the cells in the board to make it easier for the player to choose
+- Indicate the color of each turn of player
+- Add sleeping time to give player time to observe the board
